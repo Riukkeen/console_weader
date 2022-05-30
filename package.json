@@ -1,0 +1,25 @@
+{
+  "name": "console_weader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.27.2",
+    "colors": "1.4.0",
+    "dotenv": "16.0.1",
+    "inquirer": "8.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.16",
+    "standard": "17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
