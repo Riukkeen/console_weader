@@ -15,11 +15,14 @@ const main = async () => {
     option = selectedOption
 
     switch (option) {
-      case 1:
-        await searches.showCity()
+      case 1: {
+        const cities = await searches.searchCity()
+        const selectedCity = await searches.showCity(cities)
+        if (selectedCity) {
+          await searches.showWeather(selectedCity)
+        }
         break
-      case 2:
-        break
+      }
     }
 
     // saveDb( services.list );

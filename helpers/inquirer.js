@@ -19,10 +19,10 @@ const questions = [
         value: 1,
         name: '1. Search city'
       },
-      {
-        value: 2,
-        name: '2. History'
-      },
+      // {
+      //   value: 2,
+      //   name: '2. History'
+      // },
       {
         value: 0,
         name: '0. Close'
@@ -36,7 +36,7 @@ const showMenu = async () => {
   console.log(
     `
   =========================
-           Weader
+           Weather
   =========================
   `.blue
   )

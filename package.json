@@ -1,5 +1,5 @@
 {
-  "name": "console_weader",
+  "name": "console_weather",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "nodemon": "2.0.16",
-    "standard": "17.0.0"
+    "standard": "^17.0.0"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
